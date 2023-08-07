@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="/css/login.css" rel="stylesheet">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+      
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <img src="/img/NFL_logo.png" id="icon" alt="User Icon" />
+          </div>
+      
+          <!-- Login Form -->
+          <form id="loginform" onsubmit="return loginnow()">
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+            <input type="password" id="password" class="fadeIn third" name="login" placeholder="password">
+            <input type="submit" class="fadeIn fourth" value="Log In" id="btnlogin" onclick="login()">
+          </form>
+      
+          <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <p class="Alert">Precaucion: Solo Usuarios Autorizados, cualquier acceso indebido sera monitoreado y castigado.</p>
+            <a class="underlineHover" href="#">Forgot Password?</a>
+          </div>
+      
+        </div>
+      </div>
+</body>
+</html>
