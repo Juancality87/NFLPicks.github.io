@@ -1,0 +1,73 @@
+#grid .k-grouping-header, #grid .k-grid-header {
+    background: transparent;
+    border:0;
+  }
+  
+  /* Grid content */
+  #grid.k-grid, #grid.k-grid div.k-grid-content {
+    background: transparent;
+    border:0;
+  }
+  #grid.k-grid tr.k-alt {
+    background: transparent;
+    border:0;
+  }  
+  
+  /* Grid footer */
+  #grid .k-pager-wrap, #grid .k-pager-wrap .k-pager-numbers, #grid .k-pager-wrap .k-dropdown-wrap {
+    background: transparent;
+    border:0;
+  }
+  
+
+.k-grid-content th.k-content.first-visible-column {
+  border:0;
+}
+
+#grid .k-grid-pager, #grid .k-grid-content {
+  border: 0 !important;
+}
+
+
+
+
+
+
+
+
+#grid2 .k-grouping-header, #grid2 .k-grid-header {
+  background: transparent;
+  border:0;
+}
+
+/* Grid content */
+#grid2.k-grid, #grid.k-grid div.k-grid-content {
+  background: transparent;
+  border:0;
+}
+#grid2.k-grid tr.k-alt {
+  background: transparent;
+  border:0;
+}  
+
+/* Grid footer */
+#grid2 .k-pager-wrap, #grid2 .k-pager-wrap .k-pager-numbers, #grid2 .k-pager-wrap .k-dropdown-wrap {
+  background: transparent;
+  border:0;
+}
+
+
+.k-grid-content th.k-content.first-visible-column {
+border:0;
+}
+
+#grid2 .k-grid-pager, #grid2 .k-grid-content {
+border: 0 !important;
+}
+
+
+.checkbox-xl .form-check-input {
+  scale: 1.7;  
+  bottom:.15rem;
+  }
+ 

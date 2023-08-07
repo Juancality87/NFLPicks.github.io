@@ -1,0 +1,38 @@
+/*#grid .k-grouping-header, #grid .k-grid-header {
+    background: transparent;
+    
+  }
+  
+  
+  #grid.k-grid, #grid.k-grid div.k-grid-content {
+    background: transparent;
+    
+  }
+  #grid.k-grid tr.k-alt {
+    background: transparent;
+  
+  }  
+  
+  
+  #grid .k-pager-wrap, #grid .k-pager-wrap .k-pager-numbers, #grid .k-pager-wrap .k-dropdown-wrap {
+    background: transparent;
+
+  }
+  
+  .k-grid tr {
+    pointer-events: none;
+    
+}
+.k-grid-content th.k-content.first-visible-column {
+  border: solid 2px black;
+}
+
+#grid .k-grid-pager, #grid .k-grid-content {
+    border: solid 2px black;
+}*/
+#grid .k-grid-header img {
+    display:none;
+}
+#gridbyweek .k-grid-header img {
+  display:none;
+}
