@@ -1,4 +1,4 @@
-var api_url="http://localhost:44324/api";
+var api_url="https://juancality87.github.io/NFLcito_WEBAPI.github.io/api";
 jQuery(document).ready(function ($) {
     
     user = document.cookie.split('=')[1];
